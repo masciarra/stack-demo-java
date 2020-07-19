@@ -47,7 +47,6 @@ public class Stack {
 	/* Checks if array is 10 times greater than the size of queue,
 	 * then reduces the size to 2x the size of the queue.
 	 */
-	
 	private void reduceCapacity() {
 		if (this.length > (this.size * 10)) {
 			this.stack = Arrays.copyOf(this.stack, (this.size * 2));
